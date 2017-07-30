@@ -5,7 +5,8 @@
   "main": "lib/index",
   "typings": "lib/index",
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "publish": "npm run build && npm version patch && npm publish"
   },
   "keywords": [
     "typescript",

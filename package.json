@@ -7,7 +7,14 @@
   "scripts": {
     "build": "tsc -p ."
   },
-  "author": "",
+  "keywords": [
+    "typescript", "algorithms"
+  ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/gp187/algos-ts"
+  },
+  "author": "Gabri3l",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^2.4.2"

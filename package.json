@@ -1,6 +1,6 @@
 {
   "name": "algos-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "algorithms done right in typescript ",
   "main": "lib/index",
   "typings": "lib/index",
@@ -8,11 +8,12 @@
     "build": "tsc -p ."
   },
   "keywords": [
-    "typescript", "algorithms"
+    "typescript",
+    "algorithms"
   ],
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/gp187/algos-ts"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gp187/algos-ts"
   },
   "author": "Gabri3l",
   "license": "ISC",

@@ -1,0 +1,15 @@
+{
+  "name": "algos-ts",
+  "version": "1.0.2",
+  "description": "algorithms done right in typescript ",
+  "main": "lib/index",
+  "typings": "lib/index",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^2.4.2"
+  }
+}

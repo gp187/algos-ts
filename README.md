@@ -1,53 +1,18 @@
-### Algorithms
+# Algorithms
 
 
-### WIP
+# WIP
 ** this is a work in progress. Stuff will change, but you can already use it and chat with me **
 
-- To extend your native Array object with some of the optimized functions, add this as the first line of your `index.ts`
-file
+## Use
+_import the function you need and use it. that's it!_
 
 
-```typescript
-    declare global {
-        interface Array<T> {
-            /**
-             * Check if all the variables in the array are truthy
-             * @returns {boolean}
-             */
-            isAllTrue(): boolean;
-            /**
-             * Sort with correct ordering
-             */
-            sort(compareFn?: (a: T, b: T) => number): this;
-            /**
-             * Sort array by key
-             */
-            sortBy(param: string): this;
-            /**
-             * Bubble sort
-             */
-            bubbleSort(): number[];
-            /**
-             * Quick sort
-             */
-            quickSort(): number[];
-            /**
-             * Insert sort
-             */
-            insertionSort(): number[];
-            /**
-             * Merge sort algo
-             */
-            mergeSort(): number[];
-            /**
-             * Binary search
-             */
-            binarySearch(element: number, start: number, end: number): number
-            /**
-             * Find repeated item
-             */
-            firstRepeatedItem<T>(): T;
-        }
-    }
 ```
+    import {bubbleSort, quickSort, insertionSort, mergeSort, binarySearch} from 'algos-ts';
+
+    const mergeSorted = mergeSort([1,6,123,456,123,43]);
+```
+
+
+_Made with :heart: in London_

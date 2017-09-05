@@ -1,5 +1,10 @@
 # Algorithms
 
+# Install
+
+```
+npm install algos-ts
+```
 
 # WIP
 ** this is a work in progress. Stuff will change, but you can already use it and chat with me **
